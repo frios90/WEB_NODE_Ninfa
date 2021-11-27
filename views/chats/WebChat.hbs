@@ -1,0 +1,38 @@
+<button class="openChatBtn" id="openChatBtn" onclick="openForm()">Chat</button>
+<div class="openChat">
+    <div class="headChat">
+        <div class="col-md-11 col-sm-11 col-xs-11">
+        </div>
+        <div class="col-md-1 col-sm-1 col-xs-1">
+            <span class="closeChatX" onclick="closeForm()">x</span>
+        </div>       
+    </div>
+    <div class="infoChat">
+        
+        <div class="col-md-9  col-sm-9 col-xs-9">
+            <span class="titleName">Bienvenida/o</span><br>
+            <span class="titleSub">Enviame tu consulta...</span>
+        </div>
+        <div class="col-md-3  col-sm-3 col-xs-3">
+            <img src="images/banners/logo-ninfa.png" alt="logo" width="30" height="30" >
+        </div>
+    </div>
+    <hr>
+
+    <form class="formChat">
+        <div class="chatMensajes" id="messagesChatDiv">
+            
+        </div>    
+        <div class="omrs-input-group">
+            <label class="omrs-input-underlined">
+                <textarea id="messageToSend" cols="26" rows="2" ></textarea>
+                <svg id="btnSendMessage" xmlns="http://www.w3.org/2000/svg" width="50" height="30" viewBox="0 0 50 30"><path d="M6.185 4.843l11.927 7.157-11.927 7.157 2.982-7.157-2.982-7.157zm-4.185-4.843l5 12-5 12 20-12-20-12z"/></svg>
+            </label>
+        </div>   
+    </form>
+
+     <div class="footerChat">
+        <div class="col-md-12">        
+        </div>       
+    </div>
+</div>

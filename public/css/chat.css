@@ -1,0 +1,333 @@
+.openChatBtn {
+    background-color: rgba(110, 186, 67, 0.8);
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    font-weight: 500;
+    font-size: 18px;
+    cursor: pointer;
+    position: fixed;
+    bottom: 23px;
+    right: 28px;
+    width: 280px;
+    z-index: 9999;
+
+ }
+ .openChat {
+     width: 300px;
+    display: none;
+    position: fixed;
+    bottom: 0;
+    right: 15px;
+    z-index: 9999;
+    background-color: rgb(255, 255, 255);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    border-radius: 10px 10px 0px 0px;
+-moz-border-radius: 10px 10px 0px 0px;
+-webkit-border-radius: 10px 10px 0px 0px;
+
+ }
+
+ .headChat {
+    width: 100%;
+    border: medium none rgb(0, 0, 0);
+    position: relative;
+    z-index: 2;
+    background-color: #87b126;
+    font-weight: 700 !important;
+    font-size: 1.1em;
+    text-align: center !important;
+    height: 18px;
+    -moz-box-pack: start;
+    flex-shrink: 0;
+    overflow: hidden;
+    -moz-box-flex: 0;
+    flex-grow: 0;
+    padding: 0px 0.8em;
+    display: flex;
+    -moz-box-align: center;
+    align-items: center;
+    transition: background-color 0.3s ease 0s;
+    border-radius: 10px 10px 0px 0px;
+    -moz-border-radius: 10px 10px 0px 0px;
+    -webkit-border-radius: 10px 10px 0px 0px;
+    border: 0px solid #000000;
+ }
+
+ .closeChatX {
+    /* display: inline-block; */
+    flex-shrink: 0;
+    width: 1em;
+    height: 1em;
+    font-size: 1rem;
+    user-select: none;
+    
+    
+ }
+
+ .infoChat {
+     margin-bottom: 50px;
+ }
+
+ .titleName {
+    font-size: 1em;
+    font-weight: bold;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    overflow-wrap: break-word;
+    word-break: break-word;
+    margin-top: 5px;
+ }
+
+ .titleSub {
+    font-weight: 300;
+    opacity: 0.7;
+    font-size: 0.8em;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    overflow-wrap: break-word;
+    word-break: break-word;
+ }
+
+ .chatMensajes {
+   width: 100%;
+   height: 220px;
+   min-height: 220px;
+   max-height: 220px;
+   margin-bottom: 5px;
+   border-radius: 10px 10px 10px 10px;
+   -moz-border-radius: 10px 10px 10px 10px;
+   -webkit-border-radius: 10px 10px 10px 10px;
+   border: 0px solid #747474;
+   overflow-y: scroll;
+   -ms-overflow-style: none;  /* IE and Edge */
+   scrollbar-width: none;  /* Firefox */
+ }
+
+ .formChat {
+    max-width: 350px;
+    padding: 10px;
+ }
+ .formChat textarea {
+    padding: 5px 10px 5px 10px;
+    margin: 5px 0 0px 0;
+    font-weight: 300;
+    color: #484848;
+    resize: none;
+    min-width: 100%;
+    font-size: 12px;
+ }
+ .formChat textarea:focus {
+    background-color: rgb(219, 255, 252);
+    outline: none;
+ }
+ .formChat .btn {
+    background-color: rgb(34, 197, 107);
+    color: white;
+    padding: 16px 20px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom: 10px;
+    opacity: 0.8;
+ }
+ .formChat .close {
+    background-color: red;
+ }
+ .formChat .btn:hover, .openChatBtn:hover {
+    opacity: 1;
+ }
+
+ .footerChat {
+    width: 100%;
+    border: medium none rgb(0, 0, 0);
+    position: relative;
+    z-index: 2;
+    background-color: #87b126;
+    font-weight: 700 !important;
+    font-size: 1.1em;
+    text-align: center !important;
+    height: 18px;
+    -moz-box-pack: start;
+    flex-shrink: 0;
+    overflow: hidden;
+    -moz-box-flex: 0;
+    flex-grow: 0;
+    padding: 0px 0.8em;
+    display: flex;
+    -moz-box-align: center;
+    align-items: center;
+    transition: background-color 0.3s ease 0s;
+   
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ .type_msg {
+    background-color: rgba(0, 0, 0, 0.3) !important;
+    border: 0 !important;
+    color: white !important;
+    height: 60px !important;
+    overflow-y: auto;
+ }
+
+ .type_msg:focus {
+    box-shadow: none !important;
+    outline: 0px !important;
+ }
+
+ .attach_btn {
+    border-radius: 15px 0 0 15px !important;
+    background-color: rgba(0, 0, 0, 0.3) !important;
+    border: 0 !important;
+    color: white !important;
+    cursor: pointer;
+ }
+
+ .send_btn {
+    border-radius: 0 15px 15px 0 !important;
+    background-color: rgba(0, 0, 0, 0.3) !important;
+    border: 0 !important;
+    color: white !important;
+    cursor: pointer;
+ }
+
+ .search_btn {
+    border-radius: 0 15px 15px 0 !important;
+    background-color: rgba(0, 0, 0, 0.3) !important;
+    border: 0 !important;
+    color: white !important;
+    cursor: pointer;
+ }
+
+
+
+ .user_img {
+    height: 70px;
+    width: 70px;
+    border: 1.5px solid #f5f6fa;
+ }
+
+ .user_img_msg {
+    height: 40px;
+    width: 40px;
+    border: 1.5px solid #f5f6fa;
+ }
+
+ .img_cont {
+    position: relative;
+    height: 70px;
+    width: 70px;
+ }
+
+ .img_cont_msg {
+    height: 40px;
+    width: 40px;
+ }
+
+ .user_info {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 15px;
+ }
+
+ .user_info span {
+    font-size: 20px;
+    color: white;
+ }
+
+
+ .msg_cotainer {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: -10px;
+    border-radius: 25px;
+    background-color: #82ccdd;
+    padding: 10px;
+    position: relative;
+    max-width: 60%;
+    min-width: 100px;
+    font-size: 10px;
+ }
+
+ .msg_cotainer_send {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 10px;
+    border-radius: 25px;
+    background-color: #78e08f;
+    padding: 10px;
+    position: relative;
+    max-width: 60%;
+    min-width: 100px;
+    font-size: 10px;
+ }
+
+ .msg_time {
+    position: absolute;
+    left: 0;
+    bottom: -15px;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 10px;
+ }
+
+ .msg_time_send {
+    position: absolute;
+    right: 0;
+    bottom: -15px;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 10px;
+ }
+
+
+
+
+ @media(max-width: 576px) {
+    .contacts_card {
+       margin-bottom: 15px !important;
+    }
+ }
+
+
+
+
+
+
+
+
